@@ -1,0 +1,16 @@
+{
+  "name": "notebook",
+  "version": "0.0.1",
+  "description": "Safe notebook for your appoiments",
+  "author": "Gianluca Parente",
+  "license": "MIT",
+  "devDependencies": {},
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server ./ -a localhost -p 8000 -c-1"
+  },
+  "dependencies": {
+    "requirejs": "^2.3.5",
+    "http-server": "^0.9.0"
+  }
+}
