@@ -1,13 +1,41 @@
 let configuration = {
 
     application: {
-        coreModules: [
+
+        /**
+         * Root module name.
+         */
+        rootModuleName: "NoteBook",
+
+        /**
+         * Root module dependencies.
+         */
+        rootModuleDependencies: [],
+
+        /**
+         * name or path of core module, if not declare fallback to default.
+         */
+        coreModule: "NBCoreModule",
+
+        /**
+         * Define modules to load.
+         */
+        modules: [
             {
-                name: "nb-core",
+                name: "FirstModule",
+                dependencies: []
+            },
+            {
+                name: "SecondModule",
                 dependencies: []
             }
         ]
+        
     }
+    
+    // navigation: {
+    //     navigationService: "NavigationService"
+    // }
 
 };
 

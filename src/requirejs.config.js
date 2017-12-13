@@ -1,14 +1,17 @@
 var requireConfig = {
     "map": {},
     "paths": {
-        "first-module": [
+        "FirstModule": [
             "./app_components/first-module/amd-first.module"
         ],
-        "second-module": [
+        "SecondModule": [
             "./app_components/second-module/amd-second.module"
         ],
+        "NBCoreModule": [
+            "./app_components/nb-core/nb-core.module"
+        ],
         "angular": [
-            "./app_components/angular/angular"
+            "../../node_modules/angular/angular"
         ]
     },
     "shim": {
